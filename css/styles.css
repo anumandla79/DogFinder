@@ -1,0 +1,101 @@
+body{
+   box-sizing: border-box;
+}
+ 
+/*INTRODUCTION*/
+
+
+#introduction{
+     padding: 4% 15% 10%;
+    background-color: #8db596;
+    text-align: center;
+}
+.title{
+    text-align: left;
+}
+.download-button{
+    margin: 6% 3%;
+}
+.title-image{
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+.navbar{
+    margin-bottom: 7%;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.nav-item{
+    margin:10px;
+    font-size: 1.2rem;
+}
+
+@media(max-width:768px){
+    
+    .title-image{
+        transform: rotate(0deg);
+        position: static;
+        display:none;
+        
+    }
+    .title{
+        text-align: center;
+    }
+}
+
+
+/*FEATURES*/
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    
+}
+.icon {
+    color: #8db596;
+}
+
+/*TESTIMONIALS*/
+
+.testimonial-image{
+    border-radius: 100%;
+}
+.sponser-image{
+    margin:20px 50px;
+}
+#testimonials{
+    
+    background-color: #8db596;
+    text-align: center;
+    padding: 7% 0%;
+}
+.carousel{
+    padding:7% 15% 7%;
+    
+}
+
+/*PRICING*/
+#pricing {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.card-deck {
+    margin-top: 5%;
+}
+
+
+/*DOWNLOADS*/
+#download {
+    padding: 7% 15% 1%;
+    text-align: center;
+    background-color: #8db596;
+}
+
+
+
